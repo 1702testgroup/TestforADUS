@@ -1,0 +1,300 @@
+body {
+	background-color: aliceblue;
+}
+/* 顶部导航条 */
+.nav {
+	width: 100%;
+	height: 35px;
+	background-color:aquamarine;
+}
+
+.nav ul {
+	list-style: none;
+	padding-right: 60px;
+	padding-left: 60px;
+	color: #999999;
+	white-space: nowrap;
+	margin-top: 0px;
+}
+
+.nav li {
+	line-height: 35px;
+	margin-right: 20px;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #999999;
+	padding-left: 15px;
+	border-left: 1px solid #ccc;
+}
+
+.nav a:hover {
+	color: #D9534F;
+}
+
+.nav li:first-child {
+	margin-right: 500px;
+}
+
+.nav-login a {
+	padding-left: 6px;
+	border: 0px;
+}
+
+.nav-my-shop:hover .show-hidden{
+	display: block;
+}
+.show-hidden{
+	width: 190px;
+    height: 110px;
+    display: none;
+    position: absolute;
+    left: 840px;
+	background-color: #999999;
+	overflow: hidden;
+	z-index: 2;
+}
+.show-hidden a{
+	color: #FAEBD7;
+	border: none;
+}
+.show-hidden a:hover{
+	color: #FF0000;
+}
+
+/* 搜索框 */
+.container {
+	width: 1040px;
+	margin: 0px auto;
+}
+
+.cont-search {
+	width: 100%;
+	text-align: center;
+	margin: 15px auto;
+}
+
+.search-text{
+	width: 400px;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid #CCCCCC;
+}
+
+.search-btn {
+	width: 80px;
+	height: 35px;
+	border-radius: 50px;
+	color: lightcoral;
+	background-color: white;
+	border: 1px solid gold;
+	font-weight: 550;
+	outline:none;
+	cursor: pointer;
+}
+
+.search-btn:hover{
+	background-color: #FFD700;
+}
+.my-shopname {
+	font-size: xx-large;
+	font-family: "arial black";
+	color: #C81623;
+	position: relative;
+	right: 150px;
+}
+
+/* 导航内容 */
+.cont-select{
+	width: 1040px;
+	height: 500px;
+	margin: 0px auto;
+}
+.nav-side{
+	width: 200px;
+	color: #fff;
+	float: left;
+	background-color: powderblue;
+}
+.nav-side ul{
+	width: 100%;
+	padding:0px;
+	padding-top: 15px;
+	list-style: none;
+}
+.nav-side li{
+	padding: 7.5px;
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.nav-side a {
+	text-decoration: none;
+	color: deeppink;
+}
+.nav-side a:hover{
+	background: #FFD700;
+}
+/* 幻灯片 */
+.slide {
+	width: 790px;
+	height: 500px;
+	position: relative;
+	left: 220px;
+}
+.slide-img-active{
+	position: absolute;
+	left: 0px;
+	width: 790px;
+	height: 340px;
+	overflow: hidden;
+}
+.slide-img-active-contend{
+	width: 4740px;
+	animation: solider 16s infinite;
+}
+@keyframes solider{
+	0%{
+		margin-left: 0px;
+	}
+	20%{
+		margin-left: -790px;
+	}
+	40%{
+		margin-left: -1580px;
+	}
+	60%{
+		margin-left: -2370px;
+	}
+	80%{
+		margin-left: -3160px;
+	}
+	100%{
+		margin-left: -3950px;
+	}
+}
+.slide-downimg_1 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.slide-downimg_2 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+/* 商品 */
+.cont-commodity{
+	width: 1040px;
+	margin: 0px auto;
+}
+
+.comm-computer{
+	position: relative;
+	width: 100%;
+	height: 325px;
+	top: 20px;
+}
+
+.comm-clothes{
+	position: relative;
+	width: 100%;
+	height: 325px;
+	top: 20px;
+}
+
+.comm-title{
+	font-size: 25px;
+	width: 100%;
+	position: absolute;
+	top: 20px;
+	border-left: 20px solid #C81623;
+}
+
+.comm-img{
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 70px;
+}
+.comm-img img{
+	width: 85%;
+    height: 68%;
+    float: left;
+    margin-left: 18px;
+}
+.shopping-JS{
+	overflow: hidden;
+	width: 100%;
+	height: 16%;
+	float: left;
+}
+
+.shopping-paid{
+	width: 100%;
+	height: 10%;
+	font-size: 20px;
+	color: chocolate;
+	text-align: center;
+	float: left;
+}
+
+.card{
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	background-color: lemonchiffon;
+}
+/* 底部 */
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #CCCCCC;
+	margin: 0px auto;
+	position: relative;
+	top: 30px;
+}
+.footer-items{
+	top: 20px;
+	position: relative;
+}
+
+.footer-items ul{
+	list-style: none;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.footer-items li {
+	line-height: 35px;
+	margin-right: 20px;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.footer-items a {
+	text-decoration: none;
+	color: #999999;
+	padding-left: 15px;
+	border-left: 1px solid #ccc;
+}
+
+.footer-items a:hover {
+	color: #D9534F;
+}
+
+.footer-findme{
+	width: 100%;
+	color: #999395;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}

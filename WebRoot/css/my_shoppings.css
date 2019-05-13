@@ -1,0 +1,102 @@
+.shopping-trolley{
+	width: 1040px;
+	margin: 0px auto;
+}
+/* 配送地址 */
+.shopping-trolley-nav{
+	width: 100%;
+}
+.shopping-trolley-nav select{
+	width: 110px;
+	height: 25px;
+}
+/* 购物车内容表头 */
+.shopping-table{
+	width: 100%;
+	text-align: center;
+	border: none;
+}
+.shopping-table td{
+	border-bottom: 1px solid #999999;
+	border-top: 1px solid #999999;
+}
+.shopping-title{
+	height: 55px;
+	background-color: #B0E0E6;
+}
+.shopping-checkbox{
+	width: 70px;
+}
+.shopping-img{
+	width: 150px;
+}
+.shopping-massage{
+	width: 200px;
+}
+/* 商品内容 */
+.shoppings{
+	height: 155px;
+	background-color: #FAEBD7;
+}
+.shoppings img{
+	width: 100px;
+	height: 120px;
+}
+.shoppings input{
+	width: 40px;
+}
+.btn-addshot{
+	width: 30px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid red;
+	background-color: aliceblue;
+	font-size: 10px;
+	color: red;
+	outline: none;
+}
+.btn-addshot:hover{
+	background-color: #F08080;
+}
+/* 结算*/
+.shopping-trolley-footer{
+	width: 100%;
+	height: 50px;
+	background-color: #B0E0E6;
+	font-size: 25px;
+	color: #C81623;
+}
+.shopping-trolley-footer span{
+	vertical-align: -webkit-baseline-middle;
+}
+
+.shopping-pay-btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid red;
+    position: relative;
+    left: 665px;
+    background-color: aliceblue;
+    font-size: 22px;
+    color: red;
+	outline: none;
+}
+.shopping-pay-btn:hover{
+	background-color: #B0E0E6;
+}
+.shopping-delete-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 18px;
+    border: 1px solid red;
+    position: relative;
+    left: 670px;
+    background-color: aliceblue;
+    font-size: 22px;
+    color: red;
+	outline: none;
+}
+.shopping-delete-btn:hover{
+	background-color: #B0E0E6;
+}
